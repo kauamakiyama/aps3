@@ -201,7 +201,7 @@ def update_by_id_bici(id):
         )
         
         if result.matched_count == 1:
-            return {"message": "Atualização realizada com sucesso"}, 200
+            return {"message": "Atualização realizada com sucesso!"}, 200
         else:
             return {"erro": "Erro ao atualizar dados"}, 404
     except Exception as e:
