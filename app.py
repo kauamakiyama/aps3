@@ -291,7 +291,5 @@ def deletar_emprestimo(id_emprestimo):
     return {"message": "Empréstimo deletado e bicicleta liberada com sucesso!"}, 200
 
 
-
-
 if __name__ == "__main__":
     app.run(debug=True)
