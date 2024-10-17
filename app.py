@@ -124,6 +124,7 @@ def post_bici():
     data["status"] = "disponível"
 
 
+
     result = mongo.db.bicicletas.insert_one(data)
 
     return {"id": str(result.inserted_id)}, 201
